@@ -1,4 +1,4 @@
-using MiraAPI.Modifiers;
+﻿using MiraAPI.Modifiers;
 using MiraAPI.Modifiers.Types;
 using yanplaRoles.CustomGameOverReasons;
 using yanplaRoles.Roles.Neutral;
@@ -11,7 +11,7 @@ namespace yanplaRoles.Modifiers;
 
 public class ExecutionerTarget : GameModifier
 {
-    public override string ModifierName => "Executioner Target";
+    public override string ModifierName => "处决者目标";
     public override bool HideOnUi => true;
     public override bool IsModifierValidOn(RoleBehaviour role)
     {

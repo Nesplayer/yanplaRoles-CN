@@ -1,4 +1,4 @@
-using MiraAPI.Hud;
+﻿using MiraAPI.Hud;
 using MiraAPI.Utilities;
 using MiraAPI.Utilities.Assets;
 using UnityEngine;
@@ -12,7 +12,7 @@ namespace yanplaRoles.Buttons.Sheriff;
 
 public class SheriffButton : CustomActionButton<PlayerControl>
 {
-    public override string Name => "Shoot";
+    public override string Name => "执法";
     public override float Cooldown => OptionGroupSingleton<SheriffOptions>.Instance.ShootCooldown;
     public override float EffectDuration => 0f;
     public override int MaxUses => 0; // 0 means unlimited uses.

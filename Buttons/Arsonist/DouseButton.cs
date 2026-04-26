@@ -11,7 +11,7 @@ namespace yanplaRoles.Buttons.Arsonist;
 
 public class DouseButton : CustomActionButton<PlayerControl>
 {
-    public override string Name => "";
+    public override string Name => "¼å·À";
     public override float Cooldown => OptionGroupSingleton<ArsonistOptions>.Instance.DouseCooldown;
     public override float EffectDuration => 0f;
     public override int MaxUses => 0;

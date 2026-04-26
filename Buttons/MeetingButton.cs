@@ -1,4 +1,4 @@
-using yanplaRoles.Modifiers;
+﻿using yanplaRoles.Modifiers;
 using MiraAPI.Hud;
 using MiraAPI.Utilities;
 using MiraAPI.Utilities.Assets;
@@ -13,7 +13,7 @@ namespace yanplaRoles.Buttons;
 
 public class MeetingButton : CustomActionButton
 {
-    public override string Name => "Call Meeting";
+    public override string Name => "召开会议";
 
     public override float Cooldown => 15;
 

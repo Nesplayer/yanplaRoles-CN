@@ -1,4 +1,4 @@
-using MiraAPI.GameOptions;
+﻿using MiraAPI.GameOptions;
 using MiraAPI.Hud;
 using MiraAPI.Keybinds;
 using MiraAPI.Roles;
@@ -12,7 +12,7 @@ namespace yanplaRoles.Buttons.Arsonist;
 
 public class IgniteButton : CustomActionButton<PlayerControl>
 {
-    public override string Name => "";
+    public override string Name => "点火";
     public override float Cooldown => OptionGroupSingleton<ArsonistOptions>.Instance.DouseCooldown;
     public override float EffectDuration => 0f;
     public override int MaxUses => 0;

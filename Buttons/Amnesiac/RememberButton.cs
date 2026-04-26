@@ -1,4 +1,4 @@
-using MiraAPI.Hud;
+﻿using MiraAPI.Hud;
 using MiraAPI.Keybinds;
 using MiraAPI.Utilities;
 using MiraAPI.Utilities.Assets;
@@ -10,7 +10,7 @@ namespace yanplaRoles.Buttons.Amnesiac;
 
 public class RememberButton : CustomActionButton<DeadBody>
 {
-    public override string Name => "";
+    public override string Name => "回忆";
     public override float Cooldown => 0f;
     public override float EffectDuration => 0f;
     public override int MaxUses => 0;

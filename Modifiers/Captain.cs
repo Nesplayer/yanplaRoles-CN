@@ -1,4 +1,4 @@
-using MiraAPI.GameOptions;
+﻿using MiraAPI.GameOptions;
 using MiraAPI.Modifiers;
 using MiraAPI.Modifiers.Types;
 using MiraAPI.Utilities;
@@ -8,7 +8,7 @@ namespace yanplaRoles.Modifiers;
 
 public class Captain : GameModifier
 {
-    public override string ModifierName => "Captain";
+    public override string ModifierName => "舰长";
 
     public override int GetAmountPerGame()
     {

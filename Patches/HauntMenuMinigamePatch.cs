@@ -1,4 +1,4 @@
-using HarmonyLib;
+﻿using HarmonyLib;
 using MiraAPI.Roles;
 
 namespace yanplaRoles.Patches;
@@ -10,7 +10,7 @@ public static class HauntMenuMinigamePatch
     {
         if (__instance.HauntTarget.Data.IsDead)
         {
-            __instance.FilterText.text = "Ghost";
+            __instance.FilterText.text = "幽灵";
             return false;
         }
         var role = __instance.HauntTarget.Data.Role;

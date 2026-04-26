@@ -12,7 +12,7 @@ namespace yanplaRoles.Buttons.Sheriff;
 
 public class PlaceVent : CustomActionButton
 {
-    public override string Name => "Place Vent";
+    public override string Name => "«õ¬}";
     public override float Cooldown => OptionGroupSingleton<MinerOptions>.Instance.MineCooldown;
     public override float EffectDuration => 0f;
     public override int MaxUses => (int)OptionGroupSingleton<MinerOptions>.Instance.MaxVents;

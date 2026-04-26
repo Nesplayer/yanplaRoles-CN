@@ -10,7 +10,7 @@ namespace yanplaRoles.Buttons.Janitor;
 
 public class CleanButton : CustomActionButton<DeadBody>
 {
-    public override string Name => "";
+    public override string Name => "²M²z";
     public override float Cooldown => 30f;
     public override float EffectDuration => 0f;
     public override int MaxUses => 0;

@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using AmongUs.GameOptions;
 using HarmonyLib;
@@ -53,7 +53,7 @@ public static class EndGameManagerSetUpPatch{
         roleSummary.transform.localScale = new Vector3(1f, 1f, 1f);
 
         var roleSummaryText = new StringBuilder();
-        roleSummaryText.AppendLine("End game summary:");
+        roleSummaryText.AppendLine("结算：");
         foreach(var data in AdditionalTempData.playerRoleHistory) {
             var role = string.Join(" ", data.Role);
             roleSummaryText.AppendLine($"{data.PlayerName} - {role}");

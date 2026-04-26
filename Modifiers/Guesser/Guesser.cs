@@ -22,7 +22,7 @@ public class Guesser : GameModifier
 
     public Dictionary<byte, string> Guesses = new();
 
-    public override string ModifierName => "Guesser";
+    public override string ModifierName => "赌怪";
 
     public override bool IsModifierValidOn(RoleBehaviour role)
     {

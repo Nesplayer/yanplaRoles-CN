@@ -18,7 +18,7 @@ public partial class YanplaRolesPlugin : BasePlugin, IMiraPlugin
 {
     public Harmony Harmony { get; } = new(Id);
     public const string VersionString = "0.2.1";
-    public string OptionsTitleText => "yanplaRoles";
+    public string OptionsTitleText => "yanplaRoles\n翻译 by Nes";
     public ConfigFile GetConfigFile() => Config;
     public override void Load()
     {
