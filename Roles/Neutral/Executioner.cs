@@ -1,4 +1,4 @@
-using MiraAPI.Roles;
+﻿using MiraAPI.Roles;
 using UnityEngine;
 using yanplaRoles.CustomGameOverReasons;
 using MiraAPI.Modifiers;
@@ -13,8 +13,8 @@ namespace yanplaRoles.Roles.Neutral;
 
 public class Executioner : CrewmateRole, ICustomRole
 {
-    public string RoleName => "Executioner";
-    public string RoleDescription => "Get your target voted out";
+    public string RoleName => "劊子手";
+    public string RoleDescription => "想方设法的让你的目标被驱逐";
     public string RoleLongDescription => RoleDescription;
     public Color RoleColor => new Color(0.55f, 0.25f, 0.02f, 1f);
     public ModdedRoleTeams Team => ModdedRoleTeams.Custom;

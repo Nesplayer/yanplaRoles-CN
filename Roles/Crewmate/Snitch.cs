@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using HarmonyLib;
 using MiraAPI.Roles;
@@ -10,8 +10,8 @@ namespace yanplaRoles.Roles.Crewmate;
 
 public class Snitch : CrewmateRole, ICustomRole
 {
-    public string RoleName => "Snitch";
-    public string RoleDescription => "Complete your tasks to reveal the Impostor(s).";
+    public string RoleName => "告密者";
+    public string RoleDescription => "完成任务以揭示伪装者";
     public string RoleLongDescription => RoleDescription;
     public Color RoleColor => new Color(0.83f, 0.69f, 0.22f, 1f);
     public ModdedRoleTeams Team => ModdedRoleTeams.Crewmate;

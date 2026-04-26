@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using AmongUs.GameOptions;
 using BepInEx.Unity.IL2CPP.Utils;
 using MiraAPI.GameOptions;
@@ -13,8 +13,8 @@ namespace yanplaRoles.Roles.Neutral;
 
 public class Amnesiac : CrewmateRole, ICustomRole
 {
-    public string RoleName => "Amnesiac";
-    public string RoleDescription => "Remember A Role Of A Deceased Player";
+    public string RoleName => "失忆者";
+    public string RoleDescription => "记住一名已故玩家的职业";
     public string RoleLongDescription => RoleDescription;
     public Color RoleColor => new Color(0.5f, 0.7f, 1f, 1f);
     public ModdedRoleTeams Team => ModdedRoleTeams.Custom;

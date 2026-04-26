@@ -7,8 +7,8 @@ namespace yanplaRoles.Roles.Impostor;
 
 public class Janitor : ImpostorRole, ICustomRole
 {
-    public string RoleName => "Janitor";
-    public string RoleDescription => "Clean up bodies";
+    public string RoleName => "清洁工";
+    public string RoleDescription => "清理尸体";
     public string RoleLongDescription => RoleDescription;
     public Color RoleColor => Palette.ImpostorRed;
     public ModdedRoleTeams Team => ModdedRoleTeams.Impostor;

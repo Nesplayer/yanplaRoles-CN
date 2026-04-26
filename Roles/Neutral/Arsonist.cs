@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using AmongUs.GameOptions;
 using MiraAPI.Modifiers;
@@ -13,8 +13,8 @@ namespace yanplaRoles.Roles.Neutral;
 
 public class Arsonist : CrewmateRole, ICustomRole
 {
-    public string RoleName => "Arsonist";
-    public string RoleDescription => "Douse everyone and ignite them";
+    public string RoleName => "纵火犯";
+    public string RoleDescription => "把所有人都澆滅，然後點燃他們";
     public string RoleLongDescription => RoleDescription;
     public Color RoleColor => new Color(1f, 0.3f, 0f);
     public ModdedRoleTeams Team => ModdedRoleTeams.Custom;

@@ -1,4 +1,4 @@
-using AmongUs.GameOptions;
+﻿using AmongUs.GameOptions;
 using MiraAPI.GameOptions;
 using MiraAPI.Modifiers;
 using MiraAPI.Roles;
@@ -11,8 +11,8 @@ namespace yanplaRoles.Roles.Neutral;
 
 public class Jester : CrewmateRole, ICustomRole
 {
-    public string RoleName => "Jester";
-    public string RoleDescription => "Get voted out to win";
+    public string RoleName => "小丑";
+    public string RoleDescription => "被投票出局以获胜";
     public string RoleLongDescription => RoleDescription;
     public Color RoleColor => new Color32(236, 98, 165, byte.MaxValue);
     public ModdedRoleTeams Team => ModdedRoleTeams.Custom;
