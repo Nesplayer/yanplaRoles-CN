@@ -1,10 +1,10 @@
 # yanplaRoles
 `yanplaRoles` is a mod for the game Among Us that introduces new roles and modifiers.
 
-| **Impostor Roles**           | **Crewmate Roles**                | **Neutral Roles**                | **Modifiers**                |
+| **伪装者职业**           | **船员职业**                | **中立职业**                | **附加职业**                |
 |:----------------------------:|:---------------------------------:|:--------------------------------:|:----------------------------:|
-| [Janitor](#janitor)          | [Sheriff](#sheriff)               | [Amnesiac](#amnesiac)            | [Captain](#captain)          |
-| [Miner](#miner)              | [Snitch](#snitch)                 | [Arsonist](#arsonist)            | [Guesser](#guesser)          |
+| [Janitor](#janitor)          | [Sheriff](#警长)               | [Amnesiac](#amnesiac)            | [Captain](#captain)          |
+| [Miner](#旷工)              | [Snitch](#snitch)                 | [Arsonist](#arsonist)            | [Guesser](#guesser)          |
 |                              |                                   | [Executioner](#executioner)      |                              |
 |                              |                                   | [Jester](#jester)                |                              |
 
@@ -39,22 +39,22 @@ The Snitch is a crewmate role. If the snitch completes all their tasks, the Impo
 
 The Janitor is an impostor role that can clean up bodies.
 
-## Miner
+## 旷工
 
 The Miner is an impostor role that can create new vents around the map.
 
-## Captain
+## 舰长
 
 The Captain is a modifier that grants the ability to call an emergency meeting from anywhere on the map, without needing to be at the emergency button.
 
-## Guesser
+## 赌怪
 
 The Guesser is a modifier for Impostors that grants the ability to guess a player's role and kill them, however if the guesser's guess is wrong the guesser will die instead.
 
 
 
 ## Credits
-- **[MiraApi](https://github.com/All-Of-Us-Mods/MiraAPI)**: Among Us modding API and utility library, Captain Modifier.
+- **[MiraAPI](https://github.com/All-Of-Us-Mods/MiraAPI)**: Among Us modding API and utility library, Captain Modifier.
 - **[Reactor](https://github.com/NuclearPowered/Reactor)**: Modding api for Among Us.
 - **[BepInEx](https://github.com/BepInEx/BepInEx)**: A plugin framework for Unity games, used for loading and managing mods.
 - **[TheOtherRoles](https://github.com/TheOtherRolesAU/TheOtherRoles)**: Captain's Emergency Button.
